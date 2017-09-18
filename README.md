@@ -4,10 +4,10 @@
  ./flask_project/flask_project/Scripts/activate
  
 ```
-Or on Linux:
-
+..*.Or on Linux:
+```
 source ./flask_project/flask_project/Scripts/activate
-
+```
 2. Depending on your OS (Windows or Linux): 
 ```
 [export|set] FLASK_APP=test_rest_api.py
@@ -34,7 +34,7 @@ Where:
 | \<hour minute> | A time in the HHMM format. |
 | \<attribute> | An attribute from the attribute list below. |
 
-####Attributes
+#### Attributes
 The following attributes can be queried for a given date and time.
 
 - description
