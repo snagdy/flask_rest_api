@@ -2,7 +2,12 @@
 1. Firstly, activate the virtualenv inside:
  ```
  ./flask_project/flask_project/Scripts/activate
- ```
+ 
+```
+Or on Linux:
+
+source ./flask_project/flask_project/Scripts/activate
+
 2. Depending on your OS (Windows or Linux): 
 ```
 [export|set] FLASK_APP=test_rest_api.py
