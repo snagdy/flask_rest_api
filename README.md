@@ -21,7 +21,7 @@ flask run
 For now, the rest API syntax is as follows:
 
 ```
-http://<host:port>/weather/london/<date>/<hour minute>/<attribute>/
+http://<host:port>/weather/london/<app_id>/<date>/<hour minute>/<attribute>/<kelvin>/
 ```
 
 Where:
@@ -29,9 +29,11 @@ Where:
 | Syntax Element | Meaning |
 | --- | --- |
 | \<host:port> | The host's IP or domain name and Flask's listening port. |
+| \<app_id> | Your api.openweathermap.org ID, sign up to get one. |
 | \<date> | A date in the YYYYMMDD format. |
 | \<hour minute> | A time in the HHMM format. |
 | \<attribute> | An attribute from the attribute list below. |
+| \<kelvin> | Extend your API request with "kelvin" in the URI if you want temperature in Kelvin. |
 
 #### Attributes
 The following attributes can be queried for a given date and time.
