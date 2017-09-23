@@ -3,7 +3,7 @@
 ```
 ./flask_project/flask_project/Scripts/activate
 ```
-..* Or on Linux:
+* Or on Linux:
 ```
 source ./flask_project/flask_project/Scripts/activate
 ```
@@ -21,7 +21,7 @@ flask run
 For now, the rest API syntax is as follows:
 
 ```
-http://<host:port>/weather/london/<app_id>/<date>/<hour minute>/<attribute>/<kelvin>/
+http://<host:port>/weather/london/<app_id>/<date>/<hour minute>/<attribute>/<temp_unit>/
 ```
 
 Where:
@@ -33,7 +33,7 @@ Where:
 | \<date> | A date in the YYYYMMDD format. |
 | \<hour minute> | A time in the HHMM format. |
 | \<attribute> | An attribute from the attribute list below. |
-| \<kelvin> | Extend your API request with "kelvin" in the URI if you want temperature in Kelvin. |
+| \<temp_unit> | Specify if your desired temperature unit, either as in 'kelvin' or 'celsius'. |
 
 #### Attributes
 The following attributes can be queried for a given date and time.
