@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\Sherif\PycharmProjects\flask_project\flask_project"
+set "VIRTUAL_ENV=C:\Users\Sherif\Envs\flask_project"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
@@ -28,3 +28,9 @@ if defined _OLD_VIRTUAL_PATH goto ENDIFVPATH2
 :ENDIFVPATH2
 
 set "PATH=%VIRTUAL_ENV%\Scripts;%PATH%"
+:: In case user makes changes to PYTHONPATH
+if defined _OLD_VIRTUAL_PYTHONPATH (
+    set "PYTHONPATH=%_OLD_VIRTUAL_PYTHONPATH%"
+) else (
+    set "_OLD_VIRTUAL_PYTHONPATH=%PYTHONPATH%"
+)

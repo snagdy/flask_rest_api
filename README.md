@@ -1,5 +1,5 @@
 ### How to Launch the Flask Application
-1. Firstly, activate the virtualenv inside:
+1. Firstly, activate the virtualenv inside the following directory (CMD shell recommended on Windows OS):
 ```
 ./flask_project/env/Scripts/activate
 ```

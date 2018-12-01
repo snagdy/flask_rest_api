@@ -1,3 +1,4 @@
 *.pyc
 *.idea
+*.log
 flask_project/tcl/

@@ -16,8 +16,6 @@ class OpenWeatherDataReq(object):
 
     def validate_app_id(self):
         if self.json_response['cod'] == 401:
-            print 'invalid api key'
             return False
         else:
-            print 'valid api key'
             return True
